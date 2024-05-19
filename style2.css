@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding:9px;
+    padding-left: 0px;
+    background-color: gray;
+  }
+  h1{
+    width: 100%;
+    margin-top: -10px;
+    height: 50px;
+    color: white;
+    background-color: rgb(8, 8, 77);
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 800px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  p{
+     margin-left: 30%;
+     font-size: 30px;
+     font-weight: bold;
+  }
+  a {
+    font-weight: bold; /* Use 'bold' instead of 'bolder' */
+    margin-left: 30%; /* Ensure the percentage value is appropriate for your layout */
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(11, 11, 13); /* Change link color to blue (you can adjust as needed) */
+}
+
+a:hover {
+    color: red; /* Change link color on hover (you can adjust as needed) */
+}
